@@ -1,14 +1,17 @@
 "use strict";
 const readLine = require("readline-sync");
+
 /*
 Given a number return its multiplication table completely
 */
 
 function multiTable(numb) {
+  let result = "";
   for (let i = 1; i <= 10; i++) {
-    console.log(`${i} x ${numb} = ${i * numb}`);
+    result += `${numb} x ${i} = ${i * numb}\n`;
   }
+  return result;
 }
 
 let number = Number(readLine.question("Number: "));
-multiTable(number);
+console.log(multiTable(number));
