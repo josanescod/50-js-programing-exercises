@@ -1,6 +1,5 @@
 "use strict";
 const readLine = require("readline-sync");
-
 /*
 Given a number return its multiplication table completely
 */
