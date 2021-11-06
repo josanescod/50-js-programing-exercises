@@ -1,4 +1,21 @@
 {
+  "name": "50-js-programing-exercises",
+  "version": "1.0.0",
+  "description": "50 logic exercises in js",
+  "main": "ex1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josanescod/50-js-programing-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josanescod/50-js-programing-exercises/issues"
+  },
+  "homepage": "https://github.com/josanescod/50-js-programing-exercises#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   }
