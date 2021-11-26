@@ -1,7 +1,7 @@
 "use strict";
 const readLine = require("readline-sync");
 /*
-given two numbers indicate which is greater and which is smallest
+Given two numbers indicate which is greater and which is smallest
 */
 
 function compareNumbers(num1, num2) {
