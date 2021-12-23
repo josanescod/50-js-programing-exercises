@@ -4,7 +4,7 @@
   "description": "50 logic exercises in js",
   "main": "ex1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/josanescod/50-js-programing-exercises#readme",
   "dependencies": {
+    "readline": "^1.3.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
